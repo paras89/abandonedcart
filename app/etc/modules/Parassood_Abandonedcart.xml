@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Parassood_Abandonedcart>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Parassood_Abandonedcart>
+    </modules>
+</config>
