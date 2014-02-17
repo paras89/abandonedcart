@@ -21,13 +21,14 @@
 <config>
     <modules>
         <Parassood_Abandonedcart>
-            <version>0.0.1</version>
+            <version>0.0.2</version>
         </Parassood_Abandonedcart>
     </modules>
     <global>
         <models>
             <parassood_abandonedcart>
                 <class>Parassood_Abandonedcart_Model</class>
+                <resourceModel>parassood_abandonedcart_mysql4</resourceModel>
             </parassood_abandonedcart>
             <parassood_abandonedcart_mysql4>
                 <class>Parassood_Abandonedcart_Model_Mysql4</class>
@@ -35,7 +36,14 @@
                     <checkoutstage>
                         <table>parassood_abandonedcart_stage</table>
                     </checkoutstage>
+                    <campaign>
+                        <table>parassood_abandonedcart_campaign</table>
+                    </campaign>
+                    <subcampaign>
+                        <table>parassood_abandonedcart_subcampaign</table>
+                    </subcampaign>
                 </entities>
+
             </parassood_abandonedcart_mysql4>
         </models>
         <helpers>
@@ -43,6 +51,11 @@
                 <class>Parassood_Abandonedcart_Helper</class>
             </parassood_abandonedcart>
         </helpers>
+        <blocks>
+            <parassood_abandonedcart>
+                <class>Parassood_Abandonedcart_Block</class>
+            </parassood_abandonedcart>
+        </blocks>
         <resources>
             <parassood_abandonedcart_setup>
                 <setup>
@@ -51,5 +64,60 @@
                 </setup>
             </parassood_abandonedcart_setup>
         </resources>
+        <events>
+        <sales_quote_save_after>
+            <observers>
+                <parassood_abandonedcart_cartadd>
+                    <class>parassood_abandonedcart/observer</class>
+                    <method>setCartStage</method>
+                </parassood_abandonedcart_cartadd>
+            </observers>
+        </sales_quote_save_after>
+        <checkout_submit_all_after>
+                <observers>
+                    <parassood_abandonedcart_cartadd>
+                        <class>parassood_abandonedcart/observer</class>
+                        <method>setOrderedStage</method>
+                    </parassood_abandonedcart_cartadd>
+                </observers>
+         </checkout_submit_all_after>
+        </events>
+        <template>
+            <email>
+                <custom_abandonedcart_email module="Parassood_Abandonedcart">
+                    <label>Abandoned Cart Email</label>
+                    <file>abandonedcart.html</file>
+                    <type>html</type>
+                </custom_abandonedcart_email>
+            </email>
+        </template>
     </global>
+    <admin>
+        <routers>
+            <abandonedcart>
+                <use>admin</use>
+                <args>
+                    <module>Parassood_Abandonedcart</module>
+                    <frontName>abandonedcart</frontName>
+                </args>
+            </abandonedcart>
+        </routers>
+    </admin>
+    <adminhtml>
+    <layout>
+        <updates>
+            <module>
+                <file>abandonedcart.xml</file>
+            </module>
+        </updates>
+    </layout>
+    </adminhtml>
+    <crontab>
+        <jobs>
+            <parassood_abandonedcart_runcampaign>
+                <schedule><cron_expr>0 1 * * *</cron_expr></schedule>
+                <run><model>parassood_abandonedcart/observer::runAbandonedCartCampaign</model></run>
+            </parassood_abandonedcart_runcampaign>
+        </jobs>
+    </crontab>
 </config>

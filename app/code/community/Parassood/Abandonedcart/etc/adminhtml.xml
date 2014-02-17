@@ -17,7 +17,29 @@
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 -->
+
 <config>
+    <menu>
+        <abandonedcart module="parassood_abandonedcart">
+            <depends>
+                <module>Parassood_Abandonedcart</module>
+            </depends>
+            <title>Abandoned Cart</title>
+            <sort_order>40</sort_order>
+            <children>
+                <campaigns translate="title" module="parassood_abandonedcart">
+                    <title>Campaigns</title>
+                    <action>abandonedcart/adminhtml_campaign</action>
+                    <sort_order>20</sort_order>
+                </campaigns>
+                <subcampaigns translate="title" module="parassood_abandonedcart">
+                    <title>Sub Campaigns</title>
+                    <action>abandonedcart/adminhtml_subcampaign</action>
+                    <sort_order>30</sort_order>
+                </subcampaigns>
+            </children>
+        </abandonedcart>
+    </menu>
     <acl>
         <resources>
             <all>
@@ -36,6 +58,21 @@
                             </config>
                         </children>
                     </system>
+                    <abandonedcart>
+                        <title>ParasSood's Abandoned Cart Module</title>
+                        <sort_order>10</sort_order>
+                        <children>
+                            <sync>
+                                <title>Sync Attributes</title>
+                            </sync>
+                            <campaigns>
+                                <title>Campaign Management</title>
+                            </campaigns>
+                            <subcampaigns>
+                                <title>Sub-Campaign Management</title>
+                            </subcampaigns>
+                        </children>
+                    </abandonedcart>
                 </children>
             </admin>
         </resources>

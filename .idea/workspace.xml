@@ -23,101 +23,102 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="Action.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Controller/Varien/Action.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="417" column="0" selection-start="11862" selection-end="11862" vertical-scroll-proportion="-4.4583335" vertical-offset="5803" max-vertical-offset="16170">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Grid.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Block/Adminhtml/Subcampaign/Grid.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="0" selection-start="1235" selection-end="1235" vertical-scroll-proportion="-4.4583335" vertical-offset="448" max-vertical-offset="2370">
+              <folding>
+                <element signature="e#6#656#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Grid.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Widget/Grid.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="532" column="0" selection-start="13826" selection-end="13826" vertical-scroll-proportion="-4.4583335" vertical-offset="7528" max-vertical-offset="24915">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CampaignController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/controllers/Adminhtml/CampaignController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="106" column="3" selection-start="3229" selection-end="3318" vertical-scroll-proportion="-17.416666" vertical-offset="932" max-vertical-offset="1500">
+              <folding>
+                <element signature="e#7#657#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Abstract.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Block/Abstract.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="925" column="0" selection-start="23914" selection-end="23914" vertical-scroll-proportion="-4.4583335" vertical-offset="13423" max-vertical-offset="21855">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Template.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Block/Template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="286" column="0" selection-start="7701" selection-end="7701" vertical-scroll-proportion="-4.4583335" vertical-offset="3808" max-vertical-offset="5085">
+              <folding>
+                <marker date="1392286006447" expanded="false" signature="5704:5795" placeholder="..." />
+                <marker date="1392286006447" expanded="true" signature="5796:6067" placeholder="..." />
+                <marker date="1392286006447" expanded="false" signature="5810:5954" placeholder="..." />
+                <marker date="1392286006447" expanded="true" signature="5993:6067" placeholder="..." />
+                <marker date="1392286006447" expanded="false" signature="6214:6358" placeholder="..." />
+                <marker date="1392286006447" expanded="true" signature="6434:6473" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql4-upgrade-0.0.1-0.0.2.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/sql/parassood_abandonedcart_setup/mysql4-upgrade-0.0.1-0.0.2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="172" column="31" selection-start="4068" selection-end="4068" vertical-scroll-proportion="-87.75" vertical-offset="234" max-vertical-offset="2670">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/etc/config.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="24" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.0" vertical-offset="580" max-vertical-offset="915">
+            <state line="55" column="52" selection-start="2008" selection-end="2008" vertical-scroll-proportion="0.0" vertical-offset="237" max-vertical-offset="1935">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/community/Phoenix/Moneybookers/etc/config.xml">
+      <file leaf-file-name="SubcampaignController.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/controllers/Adminhtml/SubcampaignController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="13" selection-start="1231" selection-end="1437" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="4680">
+            <state line="96" column="36" selection-start="3180" selection-end="3180" vertical-scroll-proportion="2.342679" vertical-offset="688" max-vertical-offset="1785">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="install-1.6.0.0.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/community/Phoenix/Moneybookers/sql/moneybookers_setup/install-1.6.0.0.php">
+      <file leaf-file-name="Form.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Block/Adminhtml/Subcampaign/Edit/Form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mysql4-upgrade-1.2-1.2.0.1.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/community/Phoenix/Moneybookers/sql/moneybookers_setup/mysql4-upgrade-1.2-1.2.0.1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mysql4-install-0.0.1.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/sql/parassood_abandonedcart_setup/mysql4-install-0.0.1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="730" selection-end="730" vertical-scroll-proportion="-0.07462686" vertical-offset="360" max-vertical-offset="990">
-              <folding>
-                <element signature="e#6#655#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminhtml.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/etc/adminhtml.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="63" selection-start="5" selection-end="654" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="720">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="0" selection-start="2184" selection-end="2184" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1410">
-              <folding>
-                <marker date="1392293235267" expanded="false" signature="1045:1091" placeholder="..." />
-                <marker date="1392293235267" expanded="true" signature="1092:1515" placeholder="..." />
-                <marker date="1392293235267" expanded="false" signature="1106:1154" placeholder="..." />
-                <marker date="1392293235267" expanded="true" signature="1155:1334" placeholder="..." />
-                <marker date="1392293235267" expanded="false" signature="1168:1267" placeholder="..." />
-                <marker date="1392293235267" expanded="true" signature="1268:1328" placeholder="..." />
-                <marker date="1392293235267" expanded="true" signature="1337:1509" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mage.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Mage.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="679" column="0" selection-start="18580" selection-end="18580" vertical-scroll-proportion="0.0" vertical-offset="10185" max-vertical-offset="14940">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/App.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="350" column="0" selection-start="8145" selection-end="8145" vertical-scroll-proportion="0.0" vertical-offset="5250" max-vertical-offset="23550">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Setup.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Resource/Setup.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="268" column="0" selection-start="7401" selection-end="7401" vertical-scroll-proportion="0.0" vertical-offset="4020" max-vertical-offset="15195">
+            <state line="83" column="34" selection-start="3034" selection-end="3034" vertical-scroll-proportion="-4.2916665" vertical-offset="1142" max-vertical-offset="1500">
               <folding />
             </state>
           </provider>
@@ -133,12 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/code/core/Mage/Catalog/sql/catalog_setup/upgrade-1.6.0.0.9-1.6.0.0.10.php" />
-        <option value="$PROJECT_DIR$/app/code/core/Mage/SalesRule/sql/salesrule_setup/upgrade-1.6.0.2-1.6.0.3.php" />
-        <option value="$PROJECT_DIR$/app/code/core/Mage/Reports/sql/reports_setup/upgrade-1.6.0.0-1.6.0.0.1.php" />
-        <option value="$PROJECT_DIR$/app/code/core/Mage/Oauth/sql/oauth_setup/install-1.0.0.0.php" />
-        <option value="$PROJECT_DIR$/app/code/core/Mage/Captcha/sql/captcha_setup/install-1.7.0.0.0.php" />
-        <option value="$PROJECT_DIR$/app/code/core/Mage/Api2/sql/api2_setup/install-1.0.0.0.php" />
         <option value="$PROJECT_DIR$/app/code/core/Mage/XmlConnect/sql/xmlconnect_setup/upgrade-1.6.0.0-1.6.0.0.1.php" />
         <option value="$PROJECT_DIR$/app/code/community/Parassood/etc/system.xml" />
         <option value="$PROJECT_DIR$/app/code/community/Parassood/Helper/Data.php" />
@@ -146,12 +141,50 @@
         <option value="$PROJECT_DIR$/app/code/community/Parassood/etc/config.xml" />
         <option value="$PROJECT_DIR$/app/etc/modules/Parassood_Abandonedcart.xml" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Helper/Data.php" />
-        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/etc/adminhtml.xml" />
         <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/etc/system.xml" />
         <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/sql/parasood_abandonedcart_setup/mysql4-install-0.0.1.php" />
-        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Model/Mysql4/Checkoutstage/Checkoutstage.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Model/Mysql4/Checkoutstage.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Model/Checkoutstage.php" />
+        <option value="$PROJECT_DIR$/app/code/core/Mage/Sales/Model/Quote.php" />
+        <option value="$PROJECT_DIR$/app/code/core/Mage/Adminhtml/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/app/code/core/Mage/Core/Model/Session/Abstract/Varien.php" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/template/login.phtml" />
+        <option value="$PROJECT_DIR$/app/locale/en_US/template/email/sales/order_new.html" />
+        <option value="$PROJECT_DIR$/app/locale/en_US/template/email/abandonedcart.html" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Model/Observer.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Model/cart.php" />
         <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/sql/parassood_abandonedcart_setup/mysql4-install-0.0.1.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Model/Campaign.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Model/Subcampaign.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Model/Mysql4/Campaign/Collection.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Model/Mysql4/Subcampaign/Subcampaign.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Model/Mysql4/Subcampaign/Collection.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Model/Cart.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/etc/adminhtml.xml" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Block/Adminhtml/Subcampaign.php" />
+        <option value="$PROJECT_DIR$/app/design/frontend/default/Parassood/layout/abandonedcart.xml" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Block/Adminhtml/Campaign.php" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/parassood/layout/abandonedcart.xml" />
+        <option value="$PROJECT_DIR$/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/etc/config.xml" />
+        <option value="$PROJECT_DIR$/app/code/core/Mage/Adminhtml/controllers/DashboardController.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Model/Mysql4/Campaign.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Helper/Data.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Block/Adminhtml/Campaign/Edit.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Block/Adminhtml/Campaign/Grid.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/controllers/Adminhtml/CampaignController.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Block/Adminhtml/Campaign/Edit/Form.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Model/Mysql4/Checkoutstage/Collection.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Model/Mysql4/Subcampaign.php" />
+        <option value="$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Widget/Grid.php" />
+        <option value="$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Cms/Block/Grid.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Block/Adminhtml/Subcampaign/Grid.php" />
+        <option value="$PROJECT_DIR$/app/design/adminhtml/default/default/layout/abandonedcart.xml" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Block/Adminhtml/Subcampaign/Edit.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Block/Adminhtml/Subcampaign/Edit/Form.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/controllers/Adminhtml/SubcampaignController.php" />
+        <option value="$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/sql/parassood_abandonedcart_setup/mysql4-upgrade-0.0.1-0.0.2.php" />
       </list>
     </option>
   </component>
@@ -181,7 +214,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -192,13 +225,230 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="community" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="community" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parassood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Abandonedcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sql" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parassood_abandonedcart_setup" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="community" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parassood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Abandonedcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="community" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parassood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Abandonedcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="community" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parassood" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Abandonedcart" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Block" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Adminhtml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="LayoutCode.rearrangeEntriesXML" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -234,46 +484,46 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34358186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39940828" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40737894" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3653846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39940828" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34358186" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32988167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3653846" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.40737894" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -293,355 +543,410 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/sql/parassood_abandonedcart_setup/mysql4-install-0.0.1.php</url>
-          <line>21</line>
+          <url>file://$PROJECT_DIR$/app/code/core/Mage/Core/Controller/Varien/Action.php</url>
+          <line>417</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/index.php</url>
-          <line>68</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Model/Observer.php</url>
+          <line>28</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/code/core/Mage/Checkout/Model/Type/Onepage.php</url>
+          <line>334</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/controllers/DashboardController.php</url>
+          <line>40</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Model/Observer.php</url>
+          <line>81</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/controllers/Adminhtml/CampaignController.php</url>
+          <line>37</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Block/Adminhtml/Campaign.php</url>
+          <line>28</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Widget/Grid.php</url>
+          <line>500</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/controllers/Adminhtml/CampaignController.php</url>
+          <line>64</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/controllers/Adminhtml/CampaignController.php</url>
+          <line>79</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Block/Adminhtml/Subcampaign/Grid.php</url>
+          <line>37</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/controllers/Adminhtml/SubcampaignController.php</url>
+          <line>51</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/widget/form/container.phtml</url>
+          <line>31</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="6" />
+      <option name="time" value="40" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/code/community/Phoenix/Moneybookers/sql/moneybookers_setup/mysql4-upgrade-1.2-1.2.0.1.php">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Bundle/Block/Adminhtml/Catalog/Product/Edit/Tab/Bundle/Option/Search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/sql/parassood_abandonedcart_setup/mysql4-install-0.0.1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="10" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.0" vertical-offset="372" max-vertical-offset="1020">
-          <folding>
-            <element signature="e#6#655#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/etc/adminhtml.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="63" selection-start="5" selection-end="654" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="2184" selection-end="2184" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1410">
-          <folding>
-            <marker date="1392293235267" expanded="false" signature="1045:1091" placeholder="..." />
-            <marker date="1392293235267" expanded="true" signature="1092:1515" placeholder="..." />
-            <marker date="1392293235267" expanded="false" signature="1106:1154" placeholder="..." />
-            <marker date="1392293235267" expanded="true" signature="1155:1334" placeholder="..." />
-            <marker date="1392293235267" expanded="false" signature="1168:1267" placeholder="..." />
-            <marker date="1392293235267" expanded="true" signature="1268:1328" placeholder="..." />
-            <marker date="1392293235267" expanded="true" signature="1337:1509" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Mage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="679" column="0" selection-start="18580" selection-end="18580" vertical-scroll-proportion="0.0" vertical-offset="10185" max-vertical-offset="14940">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/App.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="350" column="0" selection-start="8145" selection-end="8145" vertical-scroll-proportion="0.0" vertical-offset="5250" max-vertical-offset="23550">
-          <folding />
-        </state>
+        <state line="44" column="43" selection-start="1505" selection-end="1505" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="960" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Resource/Setup.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="268" column="0" selection-start="7401" selection-end="7401" vertical-scroll-proportion="0.0" vertical-offset="4020" max-vertical-offset="15195">
-          <folding />
-        </state>
+        <state line="941" column="20" selection-start="28723" selection-end="28723" vertical-scroll-proportion="-8.208333" vertical-offset="13573" max-vertical-offset="14850" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/etc/config.xml">
+    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Model/Checkoutstage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="24" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.0" vertical-offset="580" max-vertical-offset="915">
-          <folding />
-        </state>
+        <state line="18" column="0" selection-start="0" selection-end="892" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="540" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Phoenix/Moneybookers/etc/config.xml">
+    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Model/Subcampaign.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="13" selection-start="1231" selection-end="1437" vertical-scroll-proportion="0.0" vertical-offset="615" max-vertical-offset="4680">
-          <folding />
-        </state>
+        <state line="27" column="57" selection-start="876" selection-end="876" vertical-scroll-proportion="-16.875" vertical-offset="0" max-vertical-offset="540" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Phoenix/Moneybookers/sql/moneybookers_setup/install-1.6.0.0.php">
+    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Model/Mysql4/Checkoutstage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
+        <state line="29" column="1" selection-start="0" selection-end="912" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="285" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Phoenix/Moneybookers/sql/moneybookers_setup/mysql4-upgrade-1.2-1.2.0.1.php">
+    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Model/Cart.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="705">
-          <folding />
-        </state>
+        <state line="19" column="0" selection-start="658" selection-end="658" vertical-scroll-proportion="-4.8333335" vertical-offset="169" max-vertical-offset="1125" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/sql/parassood_abandonedcart_setup/mysql4-install-0.0.1.php">
+    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Block/Adminhtml/Subcampaign.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="51" selection-start="1647" selection-end="1647" vertical-scroll-proportion="0.0" vertical-offset="372" max-vertical-offset="1020">
-          <folding>
-            <element signature="e#6#655#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/etc/adminhtml.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="63" selection-start="5" selection-end="654" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="2184" selection-end="2184" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1410">
-          <folding>
-            <marker date="1392293235267" expanded="false" signature="1045:1091" placeholder="..." />
-            <marker date="1392293235267" expanded="true" signature="1092:1515" placeholder="..." />
-            <marker date="1392293235267" expanded="false" signature="1106:1154" placeholder="..." />
-            <marker date="1392293235267" expanded="true" signature="1155:1334" placeholder="..." />
-            <marker date="1392293235267" expanded="false" signature="1168:1267" placeholder="..." />
-            <marker date="1392293235267" expanded="true" signature="1268:1328" placeholder="..." />
-            <marker date="1392293235267" expanded="true" signature="1337:1509" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Mage.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="679" column="0" selection-start="18580" selection-end="18580" vertical-scroll-proportion="0.0" vertical-offset="10185" max-vertical-offset="14940">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/App.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="350" column="0" selection-start="8145" selection-end="8145" vertical-scroll-proportion="0.0" vertical-offset="5250" max-vertical-offset="23550">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Resource/Setup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="268" column="0" selection-start="7401" selection-end="7401" vertical-scroll-proportion="0.0" vertical-offset="4020" max-vertical-offset="15195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/sql/catalog_setup/upgrade-1.6.0.0.9-1.6.0.0.10.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="56" selection-start="1020" selection-end="1020" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="2955" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/SalesRule/sql/salesrule_setup/upgrade-1.6.0.2-1.6.0.3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="7" selection-start="1108" selection-end="1108" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="2505" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Reports/sql/reports_setup/upgrade-1.6.0.0-1.6.0.0.1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="3" selection-start="962" selection-end="962" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="1230" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Oauth/sql/oauth_setup/install-1.0.0.0.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="3" selection-start="1007" selection-end="1007" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="2715" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Captcha/sql/captcha_setup/install-1.7.0.0.0.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="59" selection-start="1540" selection-end="1540" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="510" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Api2/sql/api2_setup/install-1.0.0.0.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="7" selection-start="1114" selection-end="1114" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="2490" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/XmlConnect/sql/xmlconnect_setup/upgrade-1.6.0.0-1.6.0.0.1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="7" selection-start="1080" selection-end="1080" vertical-scroll-proportion="-3.75" vertical-offset="0" max-vertical-offset="840" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/etc/modules/Mage_All.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="114" column="22" selection-start="3388" selection-end="3411" vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="6105" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/etc/modules/Mage_XmlConnect.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/etc/modules/Mage_Weee.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="8" selection-start="997" selection-end="997" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="690" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/etc/modules/Phoenix_Moneybookers.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="583" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Phoenix/Moneybookers/etc/system.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="3" selection-start="0" selection-end="74186" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="18105" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Api/etc/system.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="41" selection-start="0" selection-end="4189" vertical-scroll-proportion="0.0" vertical-offset="805" max-vertical-offset="1410" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Cm/RedisSession/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="605" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/etc/modules/Parassood_Abandonedcart.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Helper/Data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1113" selection-end="1179" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="1620" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/etc/adminhtml.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="7" selection-start="5086" selection-end="5086" vertical-scroll-proportion="0.0" vertical-offset="940" max-vertical-offset="1860" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Api/etc/adminhtml.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="65" selection-start="204" selection-end="204" vertical-scroll-proportion="-1.0330578" vertical-offset="745" max-vertical-offset="1350" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Helper/Data.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="42" selection-start="179" selection-end="179" vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="240" />
+        <state line="26" column="33" selection-start="886" selection-end="886" vertical-scroll-proportion="-16.25" vertical-offset="0" max-vertical-offset="585" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/etc/system.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="64" selection-start="2216" selection-end="2216" vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="990" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Eav/Model/Entity/Setup.php">
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/base/default/layout/catalog.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="7" selection-start="1109" selection-end="1135" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="21390" />
+        <state line="128" column="69" selection-start="7245" selection-end="7249" vertical-scroll-proportion="-3.3214285" vertical-offset="1734" max-vertical-offset="6360" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Resource/Setup.php">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Cms/Block.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="60" selection-start="1171" selection-end="1171" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="13950" />
+        <state line="36" column="20" selection-start="1237" selection-end="1237" vertical-scroll-proportion="-6.4583335" vertical-offset="40" max-vertical-offset="420" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Catalog/Model/Resource/Eav/Mysql4/Setup.php">
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/parassood/layout/abandonedcart.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="68" selection-start="1179" selection-end="1179" vertical-scroll-proportion="-6.875" vertical-offset="0" max-vertical-offset="300" />
+        <state line="6" column="27" selection-start="0" selection-end="1531" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Sales/Model/Resource/Setup.php">
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="45" selection-start="1361" selection-end="1361" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="14610" />
+        <state line="318" column="0" selection-start="10278" selection-end="10278" vertical-scroll-proportion="-4.4583335" vertical-offset="4663" max-vertical-offset="7110" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Model/Observer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="0" selection-start="2855" selection-end="2855" vertical-scroll-proportion="-4.125" vertical-offset="1116" max-vertical-offset="1590">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Layout/Update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="219" column="0" selection-start="5035" selection-end="5035" vertical-scroll-proportion="-4.4583335" vertical-offset="2833" max-vertical-offset="6540" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/etc/adminhtml.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="63" selection-start="5" selection-end="654" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
-          <folding />
-        </state>
+        <state line="67" column="37" selection-start="2591" selection-end="2591" vertical-scroll-proportion="0.0" vertical-offset="567" max-vertical-offset="1275" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Widget/Grid/Container.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="1909" selection-end="1909" vertical-scroll-proportion="-4.9166665" vertical-offset="422" max-vertical-offset="1365" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Mage.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="679" column="0" selection-start="18580" selection-end="18580" vertical-scroll-proportion="0.0" vertical-offset="10185" max-vertical-offset="14940">
+        <state line="689" column="78" selection-start="19059" selection-end="19059" vertical-scroll-proportion="-2.4166667" vertical-offset="9932" max-vertical-offset="14595">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/App.php">
+    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Model/Campaign.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="350" column="0" selection-start="8145" selection-end="8145" vertical-scroll-proportion="0.0" vertical-offset="5250" max-vertical-offset="23550">
+        <state line="27" column="53" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="540">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Phoenix/Moneybookers/sql/moneybookers_setup/mysql4-upgrade-1.2-1.2.0.1.php">
+    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Model/Mysql4/Campaign.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="592">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Phoenix/Moneybookers/sql/moneybookers_setup/install-1.6.0.0.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="605">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Phoenix/Moneybookers/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="13" selection-start="1231" selection-end="1437" vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="4680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="0" selection-start="2184" selection-end="2184" vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="1410">
-          <folding>
-            <marker date="1392293235267" expanded="false" signature="1045:1091" placeholder="..." />
-            <marker date="1392293235267" expanded="true" signature="1092:1515" placeholder="..." />
-            <marker date="1392293235267" expanded="false" signature="1106:1154" placeholder="..." />
-            <marker date="1392293235267" expanded="true" signature="1155:1334" placeholder="..." />
-            <marker date="1392293235267" expanded="false" signature="1168:1267" placeholder="..." />
-            <marker date="1392293235267" expanded="true" signature="1268:1328" placeholder="..." />
-            <marker date="1392293235267" expanded="true" signature="1337:1509" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/etc/config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="24" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.0" vertical-offset="580" max-vertical-offset="915">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Resource/Setup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="268" column="0" selection-start="7401" selection-end="7401" vertical-scroll-proportion="0.0" vertical-offset="4020" max-vertical-offset="15195">
+        <state line="29" column="1" selection-start="911" selection-end="911" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="525">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/sql/parassood_abandonedcart_setup/mysql4-install-0.0.1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="730" selection-end="730" vertical-scroll-proportion="-0.07462686" vertical-offset="360" max-vertical-offset="990">
+        <state line="23" column="16" selection-start="0" selection-end="2120" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="1305">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Varien/Object.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="630" column="0" selection-start="16597" selection-end="16597" vertical-scroll-proportion="-4.4583335" vertical-offset="8998" max-vertical-offset="13530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/controllers/DashboardController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="1385" selection-end="1385" vertical-scroll-proportion="-4.125" vertical-offset="156" max-vertical-offset="1485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Helper/Data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="29" selection-start="585" selection-end="585" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Zend/Controller/Request/Http.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="316" column="20" selection-start="8404" selection-end="8404" vertical-scroll-proportion="-8.208333" vertical-offset="4273" max-vertical-offset="15780">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Block/Adminhtml/Campaign/Edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="0" selection-start="1067" selection-end="1067" vertical-scroll-proportion="-4.9166665" vertical-offset="422" max-vertical-offset="975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Model/Mysql4/Campaign/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="6" selection-start="663" selection-end="663" vertical-scroll-proportion="-1.875" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Block/Adminhtml/Campaign.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="892" selection-end="892" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Block/Adminhtml/Campaign/Grid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="40" selection-start="1915" selection-end="1915" vertical-scroll-proportion="-23.041666" vertical-offset="17" max-vertical-offset="1500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Model/Mysql4/Checkoutstage/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="59" selection-start="914" selection-end="914" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Model/Mysql4/Subcampaign/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="57" selection-start="911" selection-end="911" vertical-scroll-proportion="-4.4166665" vertical-offset="44" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Model/Mysql4/Subcampaign.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="57" selection-start="890" selection-end="890" vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="285">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Cms/Block/Grid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="112" column="0" selection-start="3674" selection-end="3897" vertical-scroll-proportion="-7.9583335" vertical-offset="1144" max-vertical-offset="1725">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Block/Adminhtml/Campaign/Edit/Form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="34" selection-start="0" selection-end="2432" vertical-scroll-proportion="-6.7083335" vertical-offset="19" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/layout/abandonedcart.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="31" selection-start="955" selection-end="955" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Controller/Action.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="113" column="0" selection-start="2920" selection-end="2920" vertical-scroll-proportion="-4.125" vertical-offset="1251" max-vertical-offset="5550">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Model/Layout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="519" column="0" selection-start="15777" selection-end="15777" vertical-scroll-proportion="-4.4583335" vertical-offset="7333" max-vertical-offset="9450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="0" selection-start="2285" selection-end="2285" vertical-scroll-proportion="-8.291667" vertical-offset="656" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Widget/Container.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="257" column="20" selection-start="7414" selection-end="7414" vertical-scroll-proportion="-4.7916665" vertical-offset="3395" max-vertical-offset="4395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Block/Adminhtml/Subcampaign/Edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="5" selection-start="1332" selection-end="1332" vertical-scroll-proportion="-5.4166665" vertical-offset="485" max-vertical-offset="975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Widget/Form/Container.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="160" column="0" selection-start="4806" selection-end="4806" vertical-scroll-proportion="-4.4583335" vertical-offset="1948" max-vertical-offset="2385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/adminhtml/default/default/template/widget/form/container.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="0" selection-start="1588" selection-end="1588" vertical-scroll-proportion="-9.541667" vertical-offset="71" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Block/Template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="286" column="0" selection-start="7701" selection-end="7701" vertical-scroll-proportion="-4.4583335" vertical-offset="3808" max-vertical-offset="5085">
           <folding>
-            <element signature="e#6#655#0" expanded="true" />
+            <marker date="1392286006447" expanded="false" signature="5704:5795" placeholder="..." />
+            <marker date="1392286006447" expanded="true" signature="5796:6067" placeholder="..." />
+            <marker date="1392286006447" expanded="false" signature="5810:5954" placeholder="..." />
+            <marker date="1392286006447" expanded="true" signature="5993:6067" placeholder="..." />
+            <marker date="1392286006447" expanded="false" signature="6214:6358" placeholder="..." />
+            <marker date="1392286006447" expanded="true" signature="6434:6473" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Block/Abstract.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="925" column="0" selection-start="23914" selection-end="23914" vertical-scroll-proportion="-4.4583335" vertical-offset="13423" max-vertical-offset="21855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Block/Adminhtml/Subcampaign/Grid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="1235" selection-end="1235" vertical-scroll-proportion="-4.4583335" vertical-offset="448" max-vertical-offset="2370">
+          <folding>
+            <element signature="e#6#656#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Adminhtml/Block/Widget/Grid.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="532" column="0" selection-start="13826" selection-end="13826" vertical-scroll-proportion="-4.4583335" vertical-offset="7528" max-vertical-offset="24915">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/core/Mage/Core/Controller/Varien/Action.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="417" column="0" selection-start="11862" selection-end="11862" vertical-scroll-proportion="-4.4583335" vertical-offset="5803" max-vertical-offset="16170">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/Block/Adminhtml/Subcampaign/Edit/Form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="34" selection-start="3034" selection-end="3034" vertical-scroll-proportion="-4.2916665" vertical-offset="1142" max-vertical-offset="1500">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/etc/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="52" selection-start="2008" selection-end="2008" vertical-scroll-proportion="0.0" vertical-offset="237" max-vertical-offset="1935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/sql/parassood_abandonedcart_setup/mysql4-upgrade-0.0.1-0.0.2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="172" column="31" selection-start="4068" selection-end="4068" vertical-scroll-proportion="-87.75" vertical-offset="234" max-vertical-offset="2670">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/controllers/Adminhtml/CampaignController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="3" selection-start="3229" selection-end="3318" vertical-scroll-proportion="-17.416666" vertical-offset="932" max-vertical-offset="1500">
+          <folding>
+            <element signature="e#7#657#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/community/Parassood/Abandonedcart/controllers/Adminhtml/SubcampaignController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="36" selection-start="3180" selection-end="3180" vertical-scroll-proportion="2.342679" vertical-offset="688" max-vertical-offset="1785">
+          <folding />
         </state>
       </provider>
     </entry>

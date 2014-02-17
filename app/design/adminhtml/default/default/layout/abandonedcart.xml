@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<layout>
+    <abandonedcart_adminhtml_campaign_index>
+        <reference name="content">
+            <block type="parassood_abandonedcart/adminhtml_campaign" name="abandonedcart.campaign.container"/>
+        </reference>
+        <reference name="menu">
+            <action method="setActive">abandonedcart/campaigns</action>
+        </reference>
+    </abandonedcart_adminhtml_campaign_index>
+    <abandonedcart_adminhtml_campaign_new>
+        <reference name="content">
+            <block type="parassood_abandonedcart/adminhtml_campaign_edit" name="abandonedcart.campaign.edit"/>
+        </reference>
+    </abandonedcart_adminhtml_campaign_new>
+    <abandonedcart_adminhtml_campaign_edit>
+        <reference name="content">
+            <block type="parassood_abandonedcart/adminhtml_campaign_edit" name="abandonedcart.campaign.edit"/>
+        </reference>
+    </abandonedcart_adminhtml_campaign_edit>
+    <abandonedcart_adminhtml_subcampaign_index>
+        <reference name="content">
+            <block type="parassood_abandonedcart/adminhtml_subcampaign" name="abandonedcart.subcampaign.container"/>
+        </reference>
+        <reference name="menu">
+            <action method="setActive">abandonedcart/campaigns</action>
+        </reference>
+    </abandonedcart_adminhtml_subcampaign_index>
+    <abandonedcart_adminhtml_subcampaign_new>
+        <reference name="content">
+            <block type="parassood_abandonedcart/adminhtml_subcampaign_edit" name="abandonedcart.subcampaign.edit"/>
+        </reference>
+    </abandonedcart_adminhtml_subcampaign_new>
+    <abandonedcart_adminhtml_subcampaign_edit>
+        <reference name="content">
+            <block type="parassood_abandonedcart/adminhtml_subcampaign_edit" name="abandonedcart.subcampaign.edit"/>
+        </reference>
+    </abandonedcart_adminhtml_subcampaign_edit>
+
+</layout>

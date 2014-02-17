@@ -43,7 +43,6 @@ $table = $installer->getConnection()->newTable($installer->getTable('parassood_a
             'primary' => true
         ),
         'Quote ID')
-
     ->addColumn(
         'checkout_step',
         Varien_Db_Ddl_Table::TYPE_INTEGER,
@@ -55,6 +54,28 @@ $table = $installer->getConnection()->newTable($installer->getTable('parassood_a
 
         ),
         'Checkout Step')
-    ->setComment('Paras Sood Abandoned Cart Data Table');
+    ->addColumn(
+        'email_id',
+        Varien_Db_Ddl_Table::TYPE_TEXT,
+        null,
+        array(
+
+            'unsigned' => true,
+            'nullable' => true,
+
+        ),
+        'Customer Email Id')
+    ->setComment('Abandoned Cart Data Table')
+    ->addColumn(
+        'campaign_id',
+        Varien_Db_Ddl_Table::TYPE_INTEGER,
+        null,
+        array(
+
+            'unsigned' => true,
+            'nullable' => true,
+
+        ),
+        'Campaign ID:');
 $installer->getConnection()->createTable($table);
 $installer->endSetup();
