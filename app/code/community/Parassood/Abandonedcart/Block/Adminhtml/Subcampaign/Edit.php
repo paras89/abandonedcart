@@ -15,7 +15,6 @@ class Parassood_Abandonedcart_Block_Adminhtml_Subcampaign_Edit extends Mage_Admi
         $this->_controller  = 'adminhtml_subcampaign';
         $this->_blockGroup  = 'parassood_abandonedcart';
         parent::__construct();
-        //$this->removeButton('delete');
 
         $this->_addButton('saveandcontinue', array(
             'label'     => Mage::helper('adminhtml')->__('Save And Continue Edit'),
@@ -28,7 +27,7 @@ class Parassood_Abandonedcart_Block_Adminhtml_Subcampaign_Edit extends Mage_Admi
     }
 
     /**
-     * Get header text for RMA edit page
+     * Get header text for Sub Campaign edit page
      *
      * @return string
      */
@@ -42,7 +41,7 @@ class Parassood_Abandonedcart_Block_Adminhtml_Subcampaign_Edit extends Mage_Admi
     }
 
     /**
-     * Declare region instance
+     * Declare Subcampaign instance
      *
      * @return  Parassood_Abandonedcart_Model_Subcampaign
      */

@@ -62,6 +62,7 @@ class Parassood_Abandonedcart_Adminhtml_CampaignController extends Mage_Adminhtm
         } else {
             $this->_title($this->__('Create a new Abandoned Cart Campaign'));
         }
+        $this->loadLayout();
         $this->_initAction();
         $this->renderLayout();
 
@@ -84,9 +85,17 @@ class Parassood_Abandonedcart_Adminhtml_CampaignController extends Mage_Adminhtm
                 $campaign->load($data['campaign_id']);
             }
             try {
-
+                if(array_key_exists('subcampaign_ids',$data))
+                {
+                    $subcampaignIds = $data['subcampaign_ids'];
+                    if(!is_array($subcampaignIds))
+                    {
+                        $subcampaignIds = array($subcampaignIds);
+                    }
+                    $subcampaignIds = implode(',',$subcampaignIds);
+                    $campaign->setSubcampaignIds($subcampaignIds);
+                }
                 $campaign->setUpdatedAt(now())
-                    ->setSubcampaignIds($data['subcampaign_ids'])
                     ->setCheckoutStep($data['checkout_step'])
                     ->setCampaignName($data['campaign_name'])
                     ->save();
@@ -108,4 +117,20 @@ class Parassood_Abandonedcart_Adminhtml_CampaignController extends Mage_Adminhtm
     {
         $item = trim($item);
     }
+
+    public function subcampaignAction()
+    {
+
+        $this->loadLayout();
+        $this->getLayout()->getBlock('subcampaign.grid')->setSubcampaigns($this->getRequest()->getPost('subcampaigns', null));
+        $this->renderLayout();
+    }
+
+    public function subcampaigngridAction()
+    {
+        $this->loadLayout();
+        $this->getLayout()->getBlock('customer.grid')->setSubcampaigns($this->getRequest()->getPost('subcampaigns', null));
+        $this->renderLayout();
+    }
+
 }

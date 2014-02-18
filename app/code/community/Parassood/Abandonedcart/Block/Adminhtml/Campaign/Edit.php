@@ -15,13 +15,15 @@ class Parassood_Abandonedcart_Block_Adminhtml_Campaign_Edit extends Mage_Adminht
         $this->_controller  = 'adminhtml_campaign';
         $this->_blockGroup  = 'parassood_abandonedcart';
         parent::__construct();
-        //$this->removeButton('delete');
+
 
         $this->_addButton('saveandcontinue', array(
             'label'     => Mage::helper('adminhtml')->__('Save And Continue Edit'),
             'onclick'   => 'saveAndContinueEdit()',
             'class'     => 'save',
         ), -100);
+
+        $this->_updateButton('delete', 'label', Mage::helper('parassood_abandonedcart')->__('Delete'));
         $this->_formScripts[] = "function saveAndContinueEdit(){
                 editForm.submit($('edit_form').action+'back/edit/');
             }";

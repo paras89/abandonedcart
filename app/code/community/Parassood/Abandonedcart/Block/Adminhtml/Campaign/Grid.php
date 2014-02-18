@@ -45,6 +45,11 @@ class Parassood_Abandonedcart_Block_Adminhtml_Campaign_Grid extends Mage_Adminht
         $collection = Mage::getModel('parassood_abandonedcart/campaign')->getCollection();
         $this->setCollection($collection);
     }
+
+    /**
+     * Prepare columns for Campaign Grid.
+     * @return $this
+     */
     protected function _prepareColumns()
     {
         $this->addColumn('campaign_id', array(
@@ -66,7 +71,8 @@ class Parassood_Abandonedcart_Block_Adminhtml_Campaign_Grid extends Mage_Adminht
         $this->addColumn('checkout_step', array(
             'header'    => Mage::helper('parassood_abandonedcart')->__('Checkout Stage'),
             'width'     => '70',
-            'type'      => 'number',
+            'type'      => 'options',
+            'options'   => Mage::helper('parassood_abandonedcart')-> getCheckoutStageOptions(),
             'index'     => 'checkout_step'
         ));
 

@@ -19,8 +19,6 @@
  **/
 class Parassood_Abandonedcart_Adminhtml_SubcampaignController extends Mage_Adminhtml_Controller_Action
 {
-
-
     /**
      * Iniitializes page layout
      */

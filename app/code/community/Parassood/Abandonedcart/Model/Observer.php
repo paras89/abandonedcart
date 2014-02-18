@@ -84,7 +84,7 @@ class Parassood_Abandonedcart_Model_Observer
         $emailTemplate->setTemplateSubject('Your Purchase is pending!');
 
         // Get General email address (Admin->Configuration->General->Store Email Addresses)
-        $salesData['email'] = "parassoo@deloitte.com";//Mage::getStoreConfig('trans_email/ident_general/email');
+        $salesData['email'] = "parassood@paras.com";//Mage::getStoreConfig('trans_email/ident_general/email');
         $salesData['name'] = "Paras Sood";//Mage::getStoreConfig('trans_email/ident_general/name');
 
         $emailTemplate->setSenderName($salesData['name']);

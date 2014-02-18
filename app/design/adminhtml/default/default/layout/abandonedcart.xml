@@ -10,11 +10,17 @@
     </abandonedcart_adminhtml_campaign_index>
     <abandonedcart_adminhtml_campaign_new>
         <reference name="content">
+            <reference name="left">
+                <block type="parassood_abandonedcart/adminhtml_campaign_edit_tabs" name="adminform_tabs"/>
+            </reference>
             <block type="parassood_abandonedcart/adminhtml_campaign_edit" name="abandonedcart.campaign.edit"/>
         </reference>
     </abandonedcart_adminhtml_campaign_new>
     <abandonedcart_adminhtml_campaign_edit>
         <reference name="content">
+            <reference name="left">
+                <block type="parassood_abandonedcart/adminhtml_campaign_edit_tabs" name="adminform_tabs"/>
+            </reference>
             <block type="parassood_abandonedcart/adminhtml_campaign_edit" name="abandonedcart.campaign.edit"/>
         </reference>
     </abandonedcart_adminhtml_campaign_edit>
@@ -36,5 +42,28 @@
             <block type="parassood_abandonedcart/adminhtml_subcampaign_edit" name="abandonedcart.subcampaign.edit"/>
         </reference>
     </abandonedcart_adminhtml_subcampaign_edit>
+    <abandonedcart_adminhtml_campaign_subcampaign>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="parassood_abandonedcart/adminhtml_campaign_edit_tabs_subcampaign" name="subcampaign.grid"/>
+            <block type="adminhtml/widget_grid_serializer" name="grid_serializer">
+                <reference name="grid_serializer">
+                    <action method="initSerializerBlock">
+                        <grid_block_name>subcampaign.grid</grid_block_name>
+                        <data_callback>getSelectedSubcampaigns</data_callback>
+                        <hidden_input_name>links[subcampaigns]</hidden_input_name>
+                        <reload_param_name>subcampaigns</reload_param_name>
+                    </action>
+                    <action method="addColumnInputName">
+                        <input_name>position</input_name>
+                    </action>
+                </reference>
+            </block>
+        </block>
+    </abandonedcart_adminhtml_campaign_subcampaign>
+    <abandonedcart_adminhtml_campaign_subcampaigngrid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="parassood_abandonedcart/adminhtml_campaign_edit_tabs_subcampaign" name="subcampaign.grid"/>
+        </block>
+    </abandonedcart_adminhtml_campaign_subcampaigngrid>
 
 </layout>
