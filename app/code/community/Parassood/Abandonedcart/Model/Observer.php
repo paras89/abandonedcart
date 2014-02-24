@@ -38,8 +38,7 @@ class Parassood_Abandonedcart_Model_Observer
             $stage = Parassood_Abandonedcart_Helper_Data::AddToCartStage;
             $abandonedCart->setQuoteId($quoteId);
         }
-        if(isset($checkoutMethod) && $checkoutMethod != '')
-        {
+        if (isset($checkoutMethod) && $checkoutMethod != '') {
             $stage = Parassood_Abandonedcart_Helper_Data::LoginStage;
         }
         if (isset($addressEmail)) {
@@ -64,8 +63,7 @@ class Parassood_Abandonedcart_Model_Observer
         $quoteId = $observer->getQuote()->getId();
         $abandonedCart = Mage::getModel('parassood_abandonedcart/checkoutstage')->load($quoteId, 'quote_id');
         $abandonedCartId = $abandonedCart->getId();
-        if(isset($abandonedCartId))
-        {
+        if (isset($abandonedCartId)) {
             $abandonedCart->setCheckoutStep(Parassood_Abandonedcart_Helper_Data::OrderPlacedStage);
             $abandonedCart->save();
         }
@@ -79,19 +77,19 @@ class Parassood_Abandonedcart_Model_Observer
 
     public function sendAbandonedCartEmail()
     {
-        $emailTemplate  = Mage::getModel('core/email_template');
+        $emailTemplate = Mage::getModel('core/email_template');
         $emailTemplate->loadDefault('custom_abandonedcart_email');
         $emailTemplate->setTemplateSubject('Your Purchase is pending!');
 
         // Get General email address (Admin->Configuration->General->Store Email Addresses)
-        $salesData['email'] = "parassood@paras.com";//Mage::getStoreConfig('trans_email/ident_general/email');
-        $salesData['name'] = "Paras Sood";//Mage::getStoreConfig('trans_email/ident_general/name');
+        $salesData['email'] = "parassood@paras.com"; //Mage::getStoreConfig('trans_email/ident_general/email');
+        $salesData['name'] = "Paras Sood"; //Mage::getStoreConfig('trans_email/ident_general/name');
 
         $emailTemplate->setSenderName($salesData['name']);
         $emailTemplate->setSenderEmail($salesData['email']);
 
-        $emailTemplateVariables['username']  = 'test customer';//$order->getCustomerFirstname() . ' ' . $order->getCustomerLastname();
-        $emailTemplateVariables['order_id'] = 'cart';//$order->getIncrementId();
+        $emailTemplateVariables['username'] = 'test customer'; //$order->getCustomerFirstname() . ' ' . $order->getCustomerLastname();
+        $emailTemplateVariables['order_id'] = 'cart'; //$order->getIncrementId();
         $emailTemplateVariables['store_name'] = 'collection'; //$order->getStoreName();
         $emailTemplateVariables['store_url'] = 'dstoeruss'; //Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB);
         $emailTemplate->send('parssoodass@deooitte.com', 'sotename', $emailTemplateVariables);

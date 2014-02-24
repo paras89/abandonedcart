@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Magento
  *
@@ -16,7 +17,6 @@
  * @package     Parassood_Abandonedcart
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  **/
-
 class Parassood_Abandonedcart_Block_Adminhtml_Campaign_Edit_Tabs_Campaign extends Mage_Adminhtml_Block_Widget_Form
 {
     /**
@@ -29,27 +29,29 @@ class Parassood_Abandonedcart_Block_Adminhtml_Campaign_Edit_Tabs_Campaign extend
         $form = new Varien_Data_Form();
         $helper = Mage::helper('parassood_abandonedcart');
         $this->setForm($form);
-        $fieldset = $form->addFieldset('edit_campaign_form', array('legend'=>$helper->__('Edit Campaign')));
+        $fieldset = $form->addFieldset('edit_campaign_form', array('legend' => $helper->__('Edit Campaign')));
 
         $fieldset->addField('campaign_id', 'hidden', array(
-        'name'      => 'campaign_id',
+            'name' => 'campaign_id',
         ));
 
         $fieldset->addField('campaign_name', 'text', array(
-        'label'     => $helper->__('Campaign Name'),
-        'name'      => 'campaign_name',
-        'required' => true,
-        'maxlength' => 80,
+            'label' => $helper->__('Campaign Name'),
+            'name' => 'campaign_name',
+            'required' => true,
+            'maxlength' => 80,
         ));
 
         $fieldset->addField('checkout_step', 'select', array(
-        'label'     => $helper->__('Checkout Step'),
-        'name'      => 'checkout_step',
-        'required' => true,
-        'values'   => $helper->getCheckoutStageOptions()
+            'label' => $helper->__('Checkout Step'),
+            'name' => 'checkout_step',
+            'required' => true,
+            'values' => $helper->getCheckoutStageOptions()
         ));
 
-        $form->setValues( Mage::getSingleton('adminhtml/session')->getCampaignData());
+        if (Mage::registry('current_campaign')) {
+            $form->setValues(Mage::registry('current_campaign')->getData());
+        }
 
         return parent::_prepareForm();
     }

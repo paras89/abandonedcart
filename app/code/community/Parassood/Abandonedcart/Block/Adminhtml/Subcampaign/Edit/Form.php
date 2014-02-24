@@ -15,10 +15,12 @@
  *
  * @category    Parassood
  * @package     Parassood_Abandonedcart
- * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ * @license     http://opensource.org/licenses/osl-3.0.php  Open Software Licensea (OSL 3.0)
  **/
 class Parassood_Abandonedcart_Block_Adminhtml_Subcampaign_Edit_Form extends Mage_Adminhtml_Block_Widget_Form
 {
+
+
     /**
      * Prepare form before rendering HTML
      *
@@ -89,7 +91,9 @@ class Parassood_Abandonedcart_Block_Adminhtml_Subcampaign_Edit_Form extends Mage
             ),
         ));
 
-        $form->setValues(Mage::getSingleton('adminhtml/session')->getSubcampaignData());
+        if (Mage::registry('current_subcampaign')) {
+            $form->setValues(Mage::registry('current_subcampaign')->getData());
+        }
         return parent::_prepareForm();
     }
 }

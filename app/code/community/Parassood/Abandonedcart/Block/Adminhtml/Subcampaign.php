@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Magento
  *
@@ -16,8 +17,8 @@
  * @package     Parassood_Abandonedcart
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  **/
-
-class Parassood_Abandonedcart_Block_Adminhtml_Subcampaign extends Mage_Adminhtml_Block_Widget_Grid_Container{
+class Parassood_Abandonedcart_Block_Adminhtml_Subcampaign extends Mage_Adminhtml_Block_Widget_Grid_Container
+{
 
     /**
      * Initialize Region management page

@@ -49,15 +49,14 @@ class Parassood_Abandonedcart_Adminhtml_CampaignController extends Mage_Adminhtm
      */
     public function editAction()
     {
-        $id = $this->getRequest()->getParam('id',false);
+        $id = $this->getRequest()->getParam('id', false);
         if ($id) {
             $this->_title($this->__('Edit Abandoned Cart Campaign'));
             $campaign = Mage::getModel('parassood_abandonedcart/campaign')->load($id);
             if (!$campaign->getCampaignId()) {
                 Mage::throwException($this->__('Wrong Campaign requested.'));
             }
-            Mage::register('current_region', $campaign);
-            Mage::getSingleton('adminhtml/session')->setCampaignData($campaign->getData());
+            Mage::register('current_campaign', $campaign);
 
         } else {
             $this->_title($this->__('Create a new Abandoned Cart Campaign'));
@@ -81,18 +80,16 @@ class Parassood_Abandonedcart_Adminhtml_CampaignController extends Mage_Adminhtm
             if (empty($data['campaign_id'])) {
                 unset($data['campaign_id']);
                 $campaign->setCreatedAt(now());
-            }else{
+            } else {
                 $campaign->load($data['campaign_id']);
             }
             try {
-                if(array_key_exists('subcampaign_ids',$data))
-                {
+                if (array_key_exists('subcampaign_ids', $data)) {
                     $subcampaignIds = $data['subcampaign_ids'];
-                    if(!is_array($subcampaignIds))
-                    {
+                    if (!is_array($subcampaignIds)) {
                         $subcampaignIds = array($subcampaignIds);
                     }
-                    $subcampaignIds = implode(',',$subcampaignIds);
+                    $subcampaignIds = implode(',', $subcampaignIds);
                     $campaign->setSubcampaignIds($subcampaignIds);
                 }
                 $campaign->setUpdatedAt(now())
@@ -131,5 +128,18 @@ class Parassood_Abandonedcart_Adminhtml_CampaignController extends Mage_Adminhtm
         $this->loadLayout(false);
         $this->renderLayout();
     }
+
+    public function deleteAction()
+    {
+        $id = $this->getRequest()->getParam('id', false);
+        if ($id) {
+            Mage::getModel('parassood_abandonedcart/campaign')
+                ->load($id)
+                ->delete();
+        }
+        $this->_getSession()->addSuccess('Campaign Deleted');
+        $this->_redirect('*/*/');
+    }
+
 
 }

@@ -47,7 +47,7 @@ class Parassood_Abandonedcart_Adminhtml_SubcampaignController extends Mage_Admin
      */
     public function editAction()
     {
-        $id = $this->getRequest()->getParam('id',false);
+        $id = $this->getRequest()->getParam('id', false);
         if ($id) {
             $this->_title($this->__('Edit Abandoned Cart Sub Campaign'));
             $subcampaign = Mage::getModel('parassood_abandonedcart/subcampaign')->load($id);
@@ -55,7 +55,6 @@ class Parassood_Abandonedcart_Adminhtml_SubcampaignController extends Mage_Admin
                 Mage::throwException($this->__('Wrong Sub Campaign requested.'));
             }
             Mage::register('current_subcampaign', $subcampaign);
-            Mage::getSingleton('adminhtml/session')->setSubcampaignData($subcampaign->getData());
 
         } else {
             $this->_title($this->__('Create a new Abandoned Cart Sub Campaign'));
@@ -78,11 +77,22 @@ class Parassood_Abandonedcart_Adminhtml_SubcampaignController extends Mage_Admin
             if (empty($data['subcampaign_id'])) {
                 unset($data['subcampaign_id']);
                 $subcampaign->setCreatedAt(now());
-            }else{
+            } else {
                 $subcampaign->load($data['subcampaign_id']);
             }
             try {
 
+                if (($data['younger_than'] - $data['older_than']) < 0) {
+                    $this->_getSession()->addError('Younger than days field should be greater than Older Than days field.');
+                    $this->_redirect('*/*/edit');
+                    return;
+                }
+                $salesRuleId = Mage::getModel('salesrule/rule')->load($data['master_salesrule_id'])->getId();
+                if (!isset($salesRuleId)) {
+                    $this->_getSession()->addError("Sales Rule with entered id: " . $data['master_salesrule_id'] . " does not exist. Please enter an existing id");
+                    $this->_redirect('*/*/edit');
+                    return;
+                }
                 $subcampaign->setUpdatedAt(now())
                     ->setMasterSalesruleId($data['master_salesrule_id'])
                     ->setStoreId($data['store_id'])
@@ -100,7 +110,7 @@ class Parassood_Abandonedcart_Adminhtml_SubcampaignController extends Mage_Admin
                 return;
             }
 
-            $this->_getSession()->addSuccess('Form Saved');
+            $this->_getSession()->addSuccess('Sub Campaign Saved');
         }
         $this->_redirect('*/*/');
     }
@@ -108,5 +118,17 @@ class Parassood_Abandonedcart_Adminhtml_SubcampaignController extends Mage_Admin
     public function trimFormWhitespace($item, $key)
     {
         $item = trim($item);
+    }
+
+    public function deleteAction()
+    {
+        $id = $this->getRequest()->getParam('id', false);
+        if ($id) {
+            Mage::getModel('parassood_abandonedcart/subcampaign')
+                ->load($id)
+                ->delete();
+        }
+        $this->_getSession()->addSuccess('Sub Campaign Deleted');
+        $this->_redirect('*/*/');
     }
 }

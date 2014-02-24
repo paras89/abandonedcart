@@ -125,10 +125,10 @@ class Parassood_Abandonedcart_Block_Adminhtml_Campaign_Edit_Tabs_Subcampaign ext
         if (!isset($id)) {
             $id = 0;
         }
-        if(!Mage::registry('abandonedcart_subcampaignIds')){
-        $subcampaignIds = Mage::getModel('parassood_abandonedcart/campaign')->load($id)->getSubcampaignIds();
-        $subcampaignIds = explode(',', $subcampaignIds);
-        Mage::register('abandonedcart_subcampaignIds',$subcampaignIds);
+        if (!Mage::registry('abandonedcart_subcampaignIds')) {
+            $subcampaignIds = Mage::getModel('parassood_abandonedcart/campaign')->load($id)->getSubcampaignIds();
+            $subcampaignIds = explode(',', $subcampaignIds);
+            Mage::register('abandonedcart_subcampaignIds', $subcampaignIds);
         }
         return Mage::registry('abandonedcart_subcampaignIds');
     }

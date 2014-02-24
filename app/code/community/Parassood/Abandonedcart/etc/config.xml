@@ -65,22 +65,22 @@
             </parassood_abandonedcart_setup>
         </resources>
         <events>
-        <sales_quote_save_after>
-            <observers>
-                <parassood_abandonedcart_cartadd>
-                    <class>parassood_abandonedcart/observer</class>
-                    <method>setCartStage</method>
-                </parassood_abandonedcart_cartadd>
-            </observers>
-        </sales_quote_save_after>
-        <checkout_submit_all_after>
+            <sales_quote_save_after>
+                <observers>
+                    <parassood_abandonedcart_cartadd>
+                        <class>parassood_abandonedcart/observer</class>
+                        <method>setCartStage</method>
+                    </parassood_abandonedcart_cartadd>
+                </observers>
+            </sales_quote_save_after>
+            <checkout_submit_all_after>
                 <observers>
                     <parassood_abandonedcart_cartadd>
                         <class>parassood_abandonedcart/observer</class>
                         <method>setOrderedStage</method>
                     </parassood_abandonedcart_cartadd>
                 </observers>
-         </checkout_submit_all_after>
+            </checkout_submit_all_after>
         </events>
         <template>
             <email>
@@ -104,19 +104,23 @@
         </routers>
     </admin>
     <adminhtml>
-    <layout>
-        <updates>
-            <module>
-                <file>abandonedcart.xml</file>
-            </module>
-        </updates>
-    </layout>
+        <layout>
+            <updates>
+                <module>
+                    <file>abandonedcart.xml</file>
+                </module>
+            </updates>
+        </layout>
     </adminhtml>
     <crontab>
         <jobs>
             <parassood_abandonedcart_runcampaign>
-                <schedule><cron_expr>0 1 * * *</cron_expr></schedule>
-                <run><model>parassood_abandonedcart/observer::runAbandonedCartCampaign</model></run>
+                <schedule>
+                    <cron_expr>0 1 * * *</cron_expr>
+                </schedule>
+                <run>
+                    <model>parassood_abandonedcart/observer::runAbandonedCartCampaign</model>
+                </run>
             </parassood_abandonedcart_runcampaign>
         </jobs>
     </crontab>
