@@ -106,7 +106,8 @@ class Parassood_Abandonedcart_Block_Adminhtml_Campaign_Edit_Tabs_Subcampaign ext
             'field_name' => 'subcampaign_ids[]',
             'index' => 'subcampaign_id',
             'values' => $this->_getSelectedSubcampaigns(),
-            'editable' => true
+            'editable' => true,
+            'filter' => false
 
         ));
 
@@ -137,4 +138,12 @@ class Parassood_Abandonedcart_Block_Adminhtml_Campaign_Edit_Tabs_Subcampaign ext
         return $this->_getData('grid_url') ? $this->_getData('grid_url') : $this->getUrl('*/*/subcampaigngrid', array('_current' => true));
     }
 
+    protected function _filterStoreCondition($collection, $column)
+    {
+        if (!$value = $column->getFilter()->getValue()) {
+            return;
+        }
+        $collection = $this->getCollection();
+        $this->getCollection()->addStoreFilter($value);
+    }
 }

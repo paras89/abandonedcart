@@ -26,6 +26,17 @@ class Parassood_Abandonedcart_Model_Mysql4_Subcampaign_Collection extends Mage_C
     {
         $this->_init('parassood_abandonedcart/subcampaign');
     }
+
+    /**
+     * Add Store Filter to sub-campaign collection.
+     * @param $storeId
+     * @return $this
+     */
+    public function addStoreFilter($storeId)
+    {
+        $this->addFieldToFilter('main_table.store_id', $storeId);
+        return $this;
+    }
 }
 
 

@@ -128,8 +128,7 @@ class Parassood_Abandonedcart_Adminhtml_CampaignController extends Mage_Adminhtm
 
     public function subcampaigngridAction()
     {
-        $this->loadLayout();
-        $this->getLayout()->getBlock('customer.grid')->setSubcampaigns($this->getRequest()->getPost('subcampaigns', null));
+        $this->loadLayout(false);
         $this->renderLayout();
     }
 
