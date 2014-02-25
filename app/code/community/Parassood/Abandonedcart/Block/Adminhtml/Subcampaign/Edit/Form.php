@@ -58,6 +58,7 @@ class Parassood_Abandonedcart_Block_Adminhtml_Subcampaign_Edit_Form extends Mage
             'required' => false,
         ));
 
+
         $fieldset->addField('older_than', 'text', array(
             'label' => $helper->__('Target Quotes Older Than'),
             'name' => 'older_than',
@@ -71,7 +72,7 @@ class Parassood_Abandonedcart_Block_Adminhtml_Subcampaign_Edit_Form extends Mage
         ));
 
         if (!Mage::app()->isSingleStoreMode()) {
-            $fieldset->addField('store_id', 'multiselect', array(
+            $fieldset->addField('store_id', 'select', array(
                 'name' => 'store_id',
                 'label' => 'Store View',
                 'title' => 'Store View',

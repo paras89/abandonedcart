@@ -103,6 +103,17 @@
             </abandonedcart>
         </routers>
     </admin>
+    <frontend>
+        <routers>
+            <abandonedcart>
+                <use>standard</use>
+                <args>
+                    <module>Parassood_Abandonedcart</module>
+                    <frontName>recreate</frontName>
+                </args>
+            </abandonedcart>
+        </routers>
+    </frontend>
     <adminhtml>
         <layout>
             <updates>

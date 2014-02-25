@@ -32,7 +32,6 @@ class Parassood_Abandonedcart_Adminhtml_SubcampaignController extends Mage_Admin
 
     public function indexAction()
     {
-
         $this->_initAction();
         $this->renderLayout();
     }
@@ -83,14 +82,14 @@ class Parassood_Abandonedcart_Adminhtml_SubcampaignController extends Mage_Admin
             try {
 
                 if (($data['younger_than'] - $data['older_than']) < 0) {
-                    $this->_getSession()->addError('Younger than days field should be greater than Older Than days field.');
-                    $this->_redirect('*/*/edit');
+                    $this->_getSession()->addError('"Target Quotes Older Than" field should be greater than "Taret Quotes Younger Than" field.');
+                    $this->_redirect("*/*/edit/",array('id' => $subcampaign->getId()));
                     return;
                 }
                 $salesRuleId = Mage::getModel('salesrule/rule')->load($data['master_salesrule_id'])->getId();
                 if (!isset($salesRuleId)) {
                     $this->_getSession()->addError("Sales Rule with entered id: " . $data['master_salesrule_id'] . " does not exist. Please enter an existing id");
-                    $this->_redirect('*/*/edit');
+                    $this->_redirect('*/*/edit',array('id' => $subcampaign->getId()));
                     return;
                 }
                 $subcampaign->setUpdatedAt(now())

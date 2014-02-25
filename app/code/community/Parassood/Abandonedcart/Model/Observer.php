@@ -77,22 +77,54 @@ class Parassood_Abandonedcart_Model_Observer
 
     public function sendAbandonedCartEmail()
     {
+        $campaign = Mage::getModel('parassood_abandonedcart/campaign');
+        $campaignCollection = $campaign->getCollection()->load();
+        $subCampaign = Mage::getModel('parassood_abandonedcart/subcampaign');
         $emailTemplate = Mage::getModel('core/email_template');
         $emailTemplate->loadDefault('custom_abandonedcart_email');
         $emailTemplate->setTemplateSubject('Your Purchase is pending!');
 
-        // Get General email address (Admin->Configuration->General->Store Email Addresses)
-        $salesData['email'] = "parassood@paras.com"; //Mage::getStoreConfig('trans_email/ident_general/email');
-        $salesData['name'] = "Paras Sood"; //Mage::getStoreConfig('trans_email/ident_general/name');
+        foreach ($campaignCollection as $campaign) {
 
-        $emailTemplate->setSenderName($salesData['name']);
-        $emailTemplate->setSenderEmail($salesData['email']);
+            $subcampaignIds = explode(',', $campaign->getSubcampaignIds());
+            foreach ($subcampaignIds as $subcampaignId) {
+                $subCampaign->load($subcampaignId);
+                if (!$subCampaign->getEnabled()) {
+                    continue;
+                }
 
-        $emailTemplateVariables['username'] = 'test customer'; //$order->getCustomerFirstname() . ' ' . $order->getCustomerLastname();
-        $emailTemplateVariables['order_id'] = 'cart'; //$order->getIncrementId();
-        $emailTemplateVariables['store_name'] = 'collection'; //$order->getStoreName();
-        $emailTemplateVariables['store_url'] = 'dstoeruss'; //Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB);
-        $emailTemplate->send('parssoodass@deooitte.com', 'sotename', $emailTemplateVariables);
+                $subCampaign->setCampaign($campaign);
+                $quotes = $subCampaign->getSubcampaignQuotes();
+                foreach ($quotes as $quote) {
+
+                    $emailTemplate->setSenderName('paras');
+                    $emailTemplate->setSenderEmail('paras@parassood.com');
+                    $emailTemplateVariables['username'] = $quote->getCustomerFirstname();
+                    $emailTemplateVariables['cart_url'] = Mage::getUrl('recreate/cart/', array('id' => $quote->getId(),'subcampaign_id' => $subCampaign->getSubcampaignId()));
+                    $emailTemplateVariables['promocode'] = $this->_generateSalesRule($subCampaign, $quote);
+                    $emailTemplate->send($quote->getCustomerEmail(), 'store', $emailTemplateVariables);
+
+                }
+            }
+        }
+
+    }
+
+
+    protected function _generateSalesRule($subCampaign, $quote)
+    {
+        $masterRule = Mage::getModel('salesrule/rule')->load($subCampaign->getMasterSalesruleId());
+        if (!$masterRule->getId() || !$subCampaign->getEnabled()) {
+            return null;
+        }
+        $masterRule->setId(null)
+            ->save();
+        $couponCode = Mage::getModel('salesrule/coupon');
+        $couponCode->setRuleId($masterRule->getId())
+            ->setCode("XYPE" . $masterRule->getRuleId() . $quote->getCustomerEmail())
+            ->setIsPrimary(1)
+            ->save();
+        return $couponCode->getCode();
     }
 
 }
