@@ -70,11 +70,9 @@ class Parassood_Abandonedcart_Model_Observer
         return;
     }
 
-    public function runAbandonedCartCampaign()
-    {
-        $abandonedCartModel = Mage::getModel('parassood_abandonedcart/cart');
-    }
-
+    /**
+     * Cron to Send Abandoned Cart E-Mails.
+     */
     public function sendAbandonedCartEmail()
     {
         $campaign = Mage::getModel('parassood_abandonedcart/campaign');
@@ -100,7 +98,9 @@ class Parassood_Abandonedcart_Model_Observer
                     $emailTemplate->setSenderName('paras');
                     $emailTemplate->setSenderEmail('paras@parassood.com');
                     $emailTemplateVariables['username'] = $quote->getCustomerFirstname();
-                    $emailTemplateVariables['cart_url'] = Mage::getUrl('recreate/cart/', array('id' => $quote->getId(),'subcampaign_id' => $subCampaign->getSubcampaignId()));
+                    $params = array('id' => $quote->getId(),'campaign_id'=> $campaign->getCampaignId(),'subcampaign_id' => $subCampaign->getSubcampaignId(),'date' => time());
+                    $params = urlencode(serialize($params));
+                    $emailTemplateVariables['cart_url'] = Mage::getUrl('recreate/cart/',array('info' => $params));
                     $emailTemplateVariables['promocode'] = $this->_generateSalesRule($subCampaign, $quote);
                     $emailTemplate->send($quote->getCustomerEmail(), 'store', $emailTemplateVariables);
 
@@ -111,6 +111,12 @@ class Parassood_Abandonedcart_Model_Observer
     }
 
 
+    /**
+     * Create Promo Code/Sales Rule for a particular quote.
+     * @param $subCampaign
+     * @param $quote
+     * @return null
+     */
     protected function _generateSalesRule($subCampaign, $quote)
     {
         $masterRule = Mage::getModel('salesrule/rule')->load($subCampaign->getMasterSalesruleId());

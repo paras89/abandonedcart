@@ -37,6 +37,11 @@
                     <action>abandonedcart/adminhtml_subcampaign</action>
                     <sort_order>30</sort_order>
                 </subcampaigns>
+                <tracking translate="title" module="parassood_abandonedcart">
+                    <title>Campaign Tracking</title>
+                    <action>abandonedcart/adminhtml_campaign/report</action>
+                    <sort_order>40</sort_order>
+                </tracking>
             </children>
         </abandonedcart>
     </menu>
@@ -59,7 +64,7 @@
                         </children>
                     </system>
                     <abandonedcart>
-                        <title>ParasSood's Abandoned Cart Module</title>
+                        <title>Paras Sood's Abandoned Cart Module</title>
                         <sort_order>10</sort_order>
                         <children>
                             <sync>
@@ -71,6 +76,9 @@
                             <subcampaigns>
                                 <title>Sub-Campaign Management</title>
                             </subcampaigns>
+                            <tracking>
+                                <title>Campaign Tracking</title>
+                            </tracking>
                         </children>
                     </abandonedcart>
                 </children>

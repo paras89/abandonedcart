@@ -141,5 +141,24 @@ class Parassood_Abandonedcart_Adminhtml_CampaignController extends Mage_Adminhtm
         $this->_redirect('*/*/');
     }
 
+    public function reportAction()
+    {
+
+        $this->_title($this->__('Abandoned Cart Tracking'))->_title($this->__('Reports'))->_title($this->__('Tracking Report'));
+        $this->loadLayout()
+            ->_setActiveMenu('parassood_abandonedcart/tracking')
+            ->_addBreadcrumb($this->__('Campaign Management'), $this->__('Campaign Tracking'))
+            ->_addContent($this->getLayout()->createBlock('parassood_abandonedcart/adminhtml_campaign_report'))
+            ->renderLayout();
+    }
+
+    public function exportSimpleCsvAction()
+    {
+        $fileName   = 'mail_tracking_report.csv';
+        $content    = $this->getLayout()->createBlock('parassood_abandonedcart/adminhtml_campaign_report_grid')
+            ->getCsv();
+        $this->_prepareDownloadResponse($fileName, $content);
+    }
+
 
 }

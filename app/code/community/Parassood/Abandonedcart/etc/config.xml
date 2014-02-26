@@ -21,7 +21,7 @@
 <config>
     <modules>
         <Parassood_Abandonedcart>
-            <version>0.0.2</version>
+            <version>0.0.3</version>
         </Parassood_Abandonedcart>
     </modules>
     <global>
@@ -42,6 +42,9 @@
                     <subcampaign>
                         <table>parassood_abandonedcart_subcampaign</table>
                     </subcampaign>
+                    <tracking>
+                        <table>parassood_abandonedcart_tracking</table>
+                    </tracking>
                 </entities>
 
             </parassood_abandonedcart_mysql4>
