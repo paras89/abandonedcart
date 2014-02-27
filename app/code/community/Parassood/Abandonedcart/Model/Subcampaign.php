@@ -46,7 +46,8 @@ class Parassood_Abandonedcart_Model_Subcampaign extends Mage_Core_Model_Abstract
         $collection->getSelect()->where("DATEDIFF(CURDATE(),DATE(main_table.updated_at)) >=" . $this->getOlderThan() .
                                         " AND DATEDIFF(CURDATE(),DATE(main_table.updated_at)) <=" . $this->getYoungerThan() .
                                         " AND ABANDONEDCART.checkout_step = " . $this->getCampaign()->getCheckoutStep() .
-                                        " AND main_table.customer_email IS NOT NULL");
+                                        " AND main_table.customer_email IS NOT NULL
+                                          AND (main_table.store_id = ". $this->getStoreId()." OR 0 = ".$this->getStoreId() . ")");
 
         $collection->load();
         return $collection;

@@ -52,6 +52,22 @@
                             <show_in_website>0</show_in_website>
                             <show_in_store>0</show_in_store>
                         </enabled>
+                        <sender_name translate="label" module="parassood_abandonedcart">
+                            <label>Abandoned Cart Emails - Sender Name</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>3</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </sender_name>
+                        <sender_email translate="label" module="parassood_abandonedcart">
+                            <label>Abandoned Cart Emails - Sender Email</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </sender_email>
                     </fields>
                 </settings>
             </groups>

@@ -24,7 +24,7 @@ class Parassood_Abandonedcart_Model_Mysql4_Tracking_Collection extends Mage_Core
      */
     protected function _construct()
     {
-        $this->_init('parassood_abandonedcart/subcampaign');
+        $this->_init('parassood_abandonedcart/tracking');
     }
 
 }

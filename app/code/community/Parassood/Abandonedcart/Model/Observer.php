@@ -26,6 +26,8 @@ class Parassood_Abandonedcart_Model_Observer
      */
     public function setCartStage($observer)
     {
+        if(!Mage::helper('parassood_abandonedcart')->isAbandonedcartEnabled())
+            return;
         $quote = $observer->getQuote();
         $stage = 0;
         $addressEmail = $quote->getShippingAddress()->getEmail();
@@ -60,12 +62,20 @@ class Parassood_Abandonedcart_Model_Observer
      */
     public function setOrderedStage($observer)
     {
+        if(!Mage::helper('parassood_abandonedcart')->isAbandonedcartEnabled())
+            return;
         $quoteId = $observer->getQuote()->getId();
         $abandonedCart = Mage::getModel('parassood_abandonedcart/checkoutstage')->load($quoteId, 'quote_id');
         $abandonedCartId = $abandonedCart->getId();
         if (isset($abandonedCartId)) {
             $abandonedCart->setCheckoutStep(Parassood_Abandonedcart_Helper_Data::OrderPlacedStage);
             $abandonedCart->save();
+        }
+        $trackingId = Mage::getSingleton('checkout/session')->getAbdcartTrackingId();
+        if(isset($trackingId)){
+            $tracking = Mage::getModel('parassood_abandonedcart/tracking')->load($trackingId);
+            $tracking->setOrderSuccess($tracking->getOrderSuccess() + 1);
+            $tracking->save();
         }
         return;
     }
@@ -75,39 +85,55 @@ class Parassood_Abandonedcart_Model_Observer
      */
     public function sendAbandonedCartEmail()
     {
+        if(!Mage::helper('parassood_abandonedcart')->isAbandonedcartEnabled())
+            return;
         $campaign = Mage::getModel('parassood_abandonedcart/campaign');
         $campaignCollection = $campaign->getCollection()->load();
         $subCampaign = Mage::getModel('parassood_abandonedcart/subcampaign');
         $emailTemplate = Mage::getModel('core/email_template');
         $emailTemplate->loadDefault('custom_abandonedcart_email');
         $emailTemplate->setTemplateSubject('Your Purchase is pending!');
+        $tracking = Mage::getModel('parassood_abandonedcart/tracking');
+        $tracking->setTriggeredOn(date('d-m-Y',time()));
+        $senderName = Mage::helper('parassood_abandonedcart')->getSenderName();
+        $senderEmail = Mage::helper('parassood_abandonedcart')->getSenderEmail();
+        $emailTemplate->setSenderName($senderName);
+        $emailTemplate->setSenderEmail($senderEmail);
+
 
         foreach ($campaignCollection as $campaign) {
 
+            $tracking->setCampaignId($campaign->getCampaignId());
             $subcampaignIds = explode(',', $campaign->getSubcampaignIds());
             foreach ($subcampaignIds as $subcampaignId) {
+                $tracking->setSubcampaignId($subcampaignId);
                 $subCampaign->load($subcampaignId);
                 if (!$subCampaign->getEnabled()) {
                     continue;
                 }
-
                 $subCampaign->setCampaign($campaign);
                 $quotes = $subCampaign->getSubcampaignQuotes();
+                $quoteCount = 0;
+                $tracking->save();
                 foreach ($quotes as $quote) {
 
-                    $emailTemplate->setSenderName('paras');
-                    $emailTemplate->setSenderEmail('paras@parassood.com');
                     $emailTemplateVariables['username'] = $quote->getCustomerFirstname();
-                    $params = array('id' => $quote->getId(),'campaign_id'=> $campaign->getCampaignId(),'subcampaign_id' => $subCampaign->getSubcampaignId(),'date' => time());
+                    $params = array('cmpn' => $tracking->getId(),'id' => $quote->getEntityId());
                     $params = urlencode(serialize($params));
                     $emailTemplateVariables['cart_url'] = Mage::getUrl('recreate/cart/',array('info' => $params));
                     $emailTemplateVariables['promocode'] = $this->_generateSalesRule($subCampaign, $quote);
                     $emailTemplate->send($quote->getCustomerEmail(), 'store', $emailTemplateVariables);
-
+                    $quoteCount++;
                 }
+                $tracking->setEmailsSent($quoteCount)
+                         ->setEmailsOpened(0)
+                         ->setOrderSuccess(0)
+                         ->save();
+
+                $tracking->setId(null);
             }
         }
-
+        return;
     }
 
 
