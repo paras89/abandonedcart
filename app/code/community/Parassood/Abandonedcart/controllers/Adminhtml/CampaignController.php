@@ -115,6 +115,9 @@ class Parassood_Abandonedcart_Adminhtml_CampaignController extends Mage_Adminhtm
         $item = trim($item);
     }
 
+    /**
+     * Display Sub campaign grid in Campaign Edit form.
+     */
     public function subcampaignAction()
     {
 
@@ -123,12 +126,18 @@ class Parassood_Abandonedcart_Adminhtml_CampaignController extends Mage_Adminhtm
         $this->renderLayout();
     }
 
+    /**
+     * Display Sub Campaign grid in Campaign Edit Form.
+     */
     public function subcampaigngridAction()
     {
         $this->loadLayout(false);
         $this->renderLayout();
     }
 
+    /**
+     * Delete Campaign Action.
+     */
     public function deleteAction()
     {
         $id = $this->getRequest()->getParam('id', false);
@@ -141,6 +150,9 @@ class Parassood_Abandonedcart_Adminhtml_CampaignController extends Mage_Adminhtm
         $this->_redirect('*/*/');
     }
 
+    /**
+     * Generate Abandoned Cart Mailer Report Action.
+     */
     public function reportAction()
     {
 
@@ -152,6 +164,9 @@ class Parassood_Abandonedcart_Adminhtml_CampaignController extends Mage_Adminhtm
             ->renderLayout();
     }
 
+    /**
+     * Export Abandoned Cart Mailer Report.
+     */
     public function exportSimpleCsvAction()
     {
         $fileName   = 'mail_tracking_report.csv';

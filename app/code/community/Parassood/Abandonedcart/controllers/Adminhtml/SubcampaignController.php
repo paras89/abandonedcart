@@ -119,6 +119,9 @@ class Parassood_Abandonedcart_Adminhtml_SubcampaignController extends Mage_Admin
         $item = trim($item);
     }
 
+    /**
+     * Delete Sub Campaign Action.
+     */
     public function deleteAction()
     {
         $id = $this->getRequest()->getParam('id', false);
