@@ -91,7 +91,6 @@ class Parassood_Abandonedcart_Model_Observer
         $campaignCollection = $campaign->getCollection()->load();
         $subCampaign = Mage::getModel('parassood_abandonedcart/subcampaign');
         $emailTemplate = Mage::getModel('core/email_template');
-        $emailTemplate->loadDefault('custom_abandonedcart_email');
         $emailTemplate->setTemplateSubject('Your Purchase is pending!');
         $tracking = Mage::getModel('parassood_abandonedcart/tracking');
         $tracking->setTriggeredOn(date('d-m-Y',time()));
@@ -111,6 +110,14 @@ class Parassood_Abandonedcart_Model_Observer
                 if (!$subCampaign->getEnabled()) {
                     continue;
                 }
+                $skipPromo = false;
+                if($subCampaign->getMasterSalesruleId() == 0){
+                    $emailTemplate->loadDefault('custom_abandonedcart_reminder_email');
+                    $skipPromo = true;
+                }else{
+                    $emailTemplate->loadDefault('custom_abandonedcart_email');
+                }
+
                 $subCampaign->setCampaign($campaign);
                 $quotes = $subCampaign->getSubcampaignQuotes();
                 $quoteCount = 0;
@@ -121,7 +128,9 @@ class Parassood_Abandonedcart_Model_Observer
                     $params = array('cmpn' => $tracking->getId(),'id' => $quote->getEntityId());
                     $params = urlencode(serialize($params));
                     $emailTemplateVariables['cart_url'] = Mage::getUrl('recreate/cart/',array('info' => $params));
-                    $emailTemplateVariables['promocode'] = $this->_generateSalesRule($subCampaign, $quote);
+                    if(!$skipPromo){
+                        $emailTemplateVariables['promocode'] = $this->_generateSalesRule($subCampaign, $quote);
+                    }
                     $emailTemplate->send($quote->getCustomerEmail(), 'store', $emailTemplateVariables);
                     $quoteCount++;
                 }

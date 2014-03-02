@@ -21,7 +21,7 @@
 <config>
     <modules>
         <Parassood_Abandonedcart>
-            <version>0.0.3</version>
+            <version>0.0.4</version>
         </Parassood_Abandonedcart>
     </modules>
     <global>
@@ -92,6 +92,11 @@
                     <file>abandonedcart.html</file>
                     <type>html</type>
                 </custom_abandonedcart_email>
+                <custom_abandonedcart_reminder_email module="Parassood_Abandonedcart">
+                    <label>Abandoned Cart Reminder Email</label>
+                    <file>abandonedcart_reminder.html</file>
+                    <type>html</type>
+                </custom_abandonedcart_reminder_email>
             </email>
         </template>
     </global>

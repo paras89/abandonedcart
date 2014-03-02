@@ -87,7 +87,7 @@ class Parassood_Abandonedcart_Adminhtml_SubcampaignController extends Mage_Admin
                     return;
                 }
                 $salesRuleId = Mage::getModel('salesrule/rule')->load($data['master_salesrule_id'])->getId();
-                if (!isset($salesRuleId)) {
+                if (!isset($salesRuleId) && $data['master_salesrule_id'] != '' ) {
                     $this->_getSession()->addError("Sales Rule with entered id: " . $data['master_salesrule_id'] . " does not exist. Please enter an existing id");
                     $this->_redirect('*/*/edit',array('id' => $subcampaign->getId()));
                     return;
